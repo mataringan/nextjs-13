@@ -7,7 +7,9 @@ export default function Button() {
   };
   return (
     <div>
-      <button onClick={handleOnClick}>Click</button>
+      <button onClick={handleOnClick} className="bg-yellow-400 w-11">
+        Click
+      </button>
     </div>
   );
 }

@@ -1,10 +1,8 @@
-import About from "@/pages/about";
-import Dashboard from "@/pages/dashboard";
+import Dashboard from "./dashboard/page";
 
 export default function Home() {
   return (
     <>
-      <About />
       <Dashboard />
     </>
   );
